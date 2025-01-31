@@ -10,6 +10,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 import Education from "./components/Education";
 import styled from "styled-components";
 
@@ -38,6 +39,7 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
             <Contact />
