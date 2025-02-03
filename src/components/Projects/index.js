@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { projects } from "../../data/constants";
 import ProjectCard from "../Cards/ProjectCards";
 
+
 const Container = styled.div`
 margin-top: 100px;
 display: flex;
@@ -104,8 +105,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I developing responsive, user-friendly websites using modern technologies.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
@@ -123,15 +123,15 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
+            active={toggle === "WordPress"}
+            onClick={() => setToggle("WordPress")}
           >
             WordPress
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
+            active={toggle === "React"}
+            onClick={() => setToggle("React")}
           >
             React.js
           </ToggleButton>

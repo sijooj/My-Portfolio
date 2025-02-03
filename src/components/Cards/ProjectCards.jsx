@@ -17,11 +17,11 @@ const Button = styled.button`
 `
 const Card = styled.div`
     width: 330px;
-    height: 490px;
+    height: 300px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
+    box-shadow: 0 0 12px 4px rgba(11, 5, 183, 0.4);
     overflow: hidden;
     padding: 26px 20px;
     display: flex;
@@ -82,6 +82,7 @@ const Title = styled.div`
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: center;
 `
 
 const Date = styled.div`
