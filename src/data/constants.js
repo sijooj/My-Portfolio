@@ -5,7 +5,7 @@ export const Bio = {
     "Frontend Developer"
   ],
   description:
-    "If I join a company, I can complete the work on time and give 100%.I am able to complete any task cheerfully andaccurately and on time.",
+    "Front-End Developer skilled in React, WordPress, and UI/UX. Passionate about building responsive, user-friendly websites and delivering projects on time.",
   github: " https://github.com/sijooj",
   resume:
     "https://github.com/sijooj/My-Portfolio/blob/main/My%20Resume.pdf",
@@ -120,7 +120,7 @@ export const projects = [
     id: 11,
     title: <a href="https://warmonks.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Warmonks</a>,
     image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/warmonks.png",
+      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/warmonks.png",
     category: "React",
   },
   {
@@ -128,7 +128,7 @@ export const projects = [
     title: <a href="https://cryoflame.in/Mehndi_1/" target="blank" style={{ textDecoration: "none", color: "white" }}>Sufiya Mehandhi Art</a>,
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-   
+
     category: "HTML",
   },
   {
@@ -143,10 +143,10 @@ export const projects = [
   //   title: <a href="https://cryoflame.in/mycycleworld/" target="blank" style={{ textDecoration: "none", color: "white" }}>My Cycle World</a>,
   //   image:
   //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-   
+
   //   category: "web app",
   // },
-  
+
 ];
 
 

@@ -17,7 +17,7 @@ const Button = styled.button`
 `
 const Card = styled.div`
     width: 330px;
-    height: 300px;
+    height: 250px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -83,36 +83,37 @@ const Title = styled.div`
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
+    padding-top: 10px;
 `
 
-const Date = styled.div`
-    font-size: 12px;
-    margin-left: 2px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
-    @media only screen and (max-width: 768px){
-        font-size: 10px;
-    }
-`
+// const Date = styled.div`
+//     font-size: 12px;
+//     margin-left: 2px;
+//     font-weight: 400;
+//     color: ${({ theme }) => theme.text_secondary + 80};
+//     @media only screen and (max-width: 768px){
+//         font-size: 10px;
+//     }
+// `
 
 
-const Description = styled.div`
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 99};
-    overflow: hidden;
-    margin-top: 8px;
-    display: -webkit-box;
-    max-width: 100%;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-`
+// const Description = styled.div`
+//     font-weight: 400;
+//     color: ${({ theme }) => theme.text_secondary + 99};
+//     overflow: hidden;
+//     margin-top: 8px;
+//     display: -webkit-box;
+//     max-width: 100%;
+//     -webkit-line-clamp: 3;
+//     -webkit-box-orient: vertical;
+//     text-overflow: ellipsis;
+// `
 
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-`
+// const Members = styled.div`
+//     display: flex;
+//     align-items: center;
+//     padding-left: 10px;
+// `
 const Avatar = styled.img`
     width: 38px;
     height: 38px;
@@ -133,15 +134,16 @@ const ProjectCards = ({project,setOpenModal}) => {
                 ))}
             </Tags>
             <Details>
+            <img src={project.image} style={{ width: "100%", height: "auto" }} />
                 <Title>{project.title}</Title>
-                <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
+                {/* <Date>{project.date}</Date>
+                <Description>{project.description}</Description> */}
             </Details>
-            <Members>
+            {/* <Members>
                 {project.member?.map((member) => (
                     <Avatar src={member.img}/>
                 ))}
-            </Members>
+            </Members> */}
             {/* <Button>View Project</Button> */}
         </Card>
     )
