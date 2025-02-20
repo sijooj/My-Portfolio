@@ -1,14 +1,16 @@
 export const Bio = {
   name: "Sijo O.J",
   roles: [
-    "Programmer",
-    "Frontend Developer"
+
+    "Frontend Developer",
+    "Programmer"
+    
   ],
   description:
-    "Front-End Developer skilled in React, WordPress, and UI/UX. Passionate about building responsive, user-friendly websites and delivering projects on time.",
+    "Front-End Developer skilled in HTML, React, WordPress, and UI/UX. Passionate about building responsive, user-friendly websites and delivering projects on time.",
   github: " https://github.com/sijooj",
   resume:
-    "https://drive.google.com/file/d/1hJEC1g9XgFnfwUE3ReL6-frVcJustStf/view?usp=sharing",
+    "https://drive.google.com/file/d/1-W0eJp8gh0HUn9Hse9HyMOY2mZLYqzm6/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sijo-oj-226002208/",
   insta: "https://www.instagram.com/_sijo_o.j/",
   facebook: "https://www.facebook.com/people/Sijo-Oj/pfbid02UkiTSnHs7i6wkxnBeF8kXRPKAhj34Zig8J1JFYtWwZS3JFBpD8hgwDrUc5pT8fMCl/",
@@ -116,116 +118,276 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 11,
-    title: <a href="https://warmonks.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Warmonks</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/warmonks.png",
-    category: "React",
-  },
+  // {
+  //   id: 11,
+  //   title: (
+  //     <a
+  //       href="https://warmonks.com/"
+  //       target="_blank"
+  //       rel="noopener noreferrer"
+  //       style={{ color: "#fff", textDecoration: "none" }}
+  //     >
+  //       <img
+  //         src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/warmonks.png"
+  //         alt="Warmonks"
+  //         style={{ width: "100%", height: "auto", cursor: "pointer" }}
+  //       />
+  //       Warmonks
+  //     </a>
+  //   ),
+  //   category: "React",
+  // },
+  
   {
     id: 9,
-    title: <a href="https://cryoflame.in/Mehndi_1/" target="blank" style={{ textDecoration: "none", color: "white" }}>Sufiya Mehandhi Art</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/sufiya.jpg",
-
+    title: <a href="https://cryoflame.in/Mehndi_1/" target="_blank" rel="noopener noreferrer" style={{color: "#fff", textDecoration: "none"}}>
+    <img
+      src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/sufiya.jpg"
+      alt="Sufiya Mehandhi Art"
+      style={{ width: "100%", height: "auto", cursor: "pointer" }}
+    />Sufiya Mehandhi Art
+  </a>,
     category: "HTML",
   },
   {
     id: 0,
-    title: <a href="https://veloxis.ae/" target="blank" style={{ textDecoration: "none", color: "white" }}>Veloxis</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/veloxi.jpeg",
+    title: (
+      <a
+        href="https://veloxis.ae/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/veloxi.jpeg"
+          alt="Veloxis"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Veloxis
+      </a>
+    ),
     category: "WordPress",
   },
   {
     id: 1,
-    title: <a href="https://finmasterllc.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Finmaster</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/finmaster.jpeg",
-
+    title: (
+      <a
+        href="https://finmasterllc.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/finmaster.jpeg"
+          alt="Finmaster"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Finmaster
+      </a>
+    ),
     category: "HTML",
   },
+  
+  // {
+  //   id: 1,
+  //   title: (
+  //     <a
+  //       href="https://dreamworldwaterpark.in/"
+  //       target="_blank"
+  //       rel="noopener noreferrer"
+  //       style={{ color: "#fff", textDecoration: "none" }}
+  //     >
+  //       <img
+  //         src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/dream-world.jpeg"
+  //         alt="Dream World"
+  //         style={{ width: "100%", height: "auto", cursor: "pointer" }}
+  //       />
+  //       Dream World
+  //     </a>
+  //   ),
+  //   category: "WordPress",
+  // },
+  
   {
     id: 1,
-    title: <a href="https://dreamworldwaterpark.in/" target="blank" style={{ textDecoration: "none", color: "white" }}>Dream World</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/dream-world.jpeg",
-
-    category: "WordPress",
-  },
-  {
-    id: 1,
-    title: <a href="https://www.mindssparsh.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Minds Sparsh</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/mindssparsh.jpeg",
-
+    title: (
+      <a 
+        href="https://www.mindssparsh.com/" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/mindssparsh.jpeg"
+          alt="Minds Sparsh"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Minds Sparsh
+      </a>
+    ),
     category: "React",
   },
+  
   {
     id: 1,
-    title: <a href="https://schoolofpie.in/" target="blank" style={{ textDecoration: "none", color: "white" }}>School Of Pie</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/school-pie.jpeg",
-
+    title: (
+      <a 
+        href="https://schoolofpie.in/" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/school-pie.jpeg"
+          alt="School Of Pie"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        School Of Pie
+      </a>
+    ),
     category: "WordPress",
   },
+  
   {
     id: 1,
-    title: <a href="https://cryoflame.in/resort/" target="blank" style={{ textDecoration: "none", color: "white" }}>Resort Wayanad</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/resort.png",
-
+    title: (
+      <a
+        href="https://cryoflame.in/resort/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/resort.png"
+          alt="Resort Wayanad"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Resort Wayanad
+      </a>
+    ),
     category: "HTML",
   },
+  
   {
     id: 1,
-    title: <a href="https://www.conceptsdesignstudio.in/" target="blank" style={{ textDecoration: "none", color: "white" }}>Concepts Design</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/concept.jpg",
-
+    title: (
+      <a
+        href="https://www.conceptsdesignstudio.in/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/concept.jpg"
+          alt="Concepts Design"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Concepts Design
+      </a>
+    ),
     category: "HTML",
   },
+  
   {
     id: 1,
-    title: <a href="https://reiseninternational.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Reisen</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/reisen.jpeg",
-
+    title: (
+      <a
+        href="https://reiseninternational.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/reisen.jpeg"
+          alt="Reisen"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Reisen
+      </a>
+    ),
     category: "WordPress",
   },
+  
   {
     id: 1,
-    title: <a href="https://teamaxcafe.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Teamax cafe</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/teamax.jpeg",
-
+    title: (
+      <a
+        href="https://teamaxcafe.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/teamax.jpeg"
+          alt="Teamax Cafe"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Teamax Cafe
+      </a>
+    ),
     category: "WordPress",
   },
+  
   {
     id: 1,
-    title: <a href="https://www.hydrogencity.in/" target="blank" style={{ textDecoration: "none", color: "white" }}>Hydrogen City</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/hydrogen.png",
-
+    title: (
+      <a
+        href="https://www.hydrogencity.in/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/hydrogen.png"
+          alt="Hydrogen City"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Hydrogen City
+      </a>
+    ),
     category: "HTML",
   },
+  
   {
     id: 1,
-    title: <a href="https://www.aljaitra.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Al-jaitra</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/aljaitra.jpg",
-
+    title: (
+      <a
+        href="https://www.aljaitra.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/aljaitra.jpg"
+          alt="Al-jaitra"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Al-jaitra
+      </a>
+    ),
     category: "HTML",
   },
+  
   {
     id: 1,
-    title: <a href="https://indo-shah.com/" target="blank" style={{ textDecoration: "none", color: "white" }}>Indo-Shah</a>,
-    image:
-      "https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/indo-shah.jpeg",
-
+    title: (
+      <a
+        href="https://indo-shah.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff", textDecoration: "none" }}
+      >
+        <img
+          src="https://raw.githubusercontent.com/sijooj/My-Portfolio/refs/heads/main/Projects%20Images/indo-shah.jpeg"
+          alt="Indo-Shah"
+          style={{ width: "100%", height: "auto", cursor: "pointer" }}
+        />
+        Indo-Shah
+      </a>
+    ),
     category: "WordPress",
   },
+  
 
 ];
 
